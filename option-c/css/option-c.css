@@ -1444,12 +1444,10 @@
   font-weight: var(--font-semibold);
 }
 
-/* Contact Form - Labels on dark background need to be white */
+/* Contact Form - Labels on LIGHT background need to be dark */
 .contact-form-wrapper .form-group label,
-.contact-form-wrapper label,
-.contact-section label,
-#contact label {
-  color: #ffffff !important;
+.contact-form-wrapper label {
+  color: var(--nwestco-neutral-700) !important;
   font-weight: var(--font-semibold);
 }
 
