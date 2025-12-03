@@ -1439,8 +1439,16 @@
 /* Contact Form - Default labels for dark background */
 .contact-section .form-group label,
 .contact-section label {
-  color: var(--nwestco-white);
+  color: var(--nwestco-white) !important;
   font-weight: var(--font-semibold);
+}
+
+/* Ensure labels stay white even when input is focused on dark background */
+.contact-section .form-group input:focus ~ label,
+.contact-section .form-group select:focus ~ label,
+.contact-section .form-group textarea:focus ~ label,
+.contact-section .form-group:focus-within label {
+  color: var(--nwestco-white) !important;
 }
 
 /* Contact Form - Labels on LIGHT background need to be dark (only on contact.html page with light wrapper background) */
