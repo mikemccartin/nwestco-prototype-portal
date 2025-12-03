@@ -330,7 +330,7 @@ header {
 
 .hero-section {
   background: linear-gradient(135deg, rgba(37, 97, 124, 0.65) 0%, rgba(26, 68, 86, 0.7) 100%),
-              url('https://images.unsplash.com/photo-1527018601619-a508a2be00cd?w=1920&q=80') center/cover no-repeat;
+              url('../shared/assets/images/Image_202512030952.jpeg') center/cover no-repeat;
   color: var(--nwestco-white);
   padding: calc(var(--header-height) + var(--space-16)) 0 var(--space-20);
   min-height: 100vh;
