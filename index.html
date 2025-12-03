@@ -315,6 +315,19 @@
       color: var(--tandem-gray);
     }
 
+    .discovery-category span {
+      color: var(--nwestco-blue);
+      font-size: 0.875rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .discovery-category span::before {
+      content: "→";
+      color: var(--tandem-gray);
+    }
+
     /* Project Info */
     .project-info {
       background: var(--tandem-dark);
@@ -567,14 +580,14 @@
         <div class="discovery-category">
           <h4>Team</h4>
           <ul>
-            <li>workflow-project-manager - Project coordination</li>
-            <li>workflow-architect-ux - Information architecture & UX</li>
-            <li>design-brand-guardian - Brand guidelines & consistency</li>
-            <li>design-ui-systems - UI design & components</li>
-            <li>marketing-content-strategy - Content & messaging</li>
-            <li>marketing-seo-technical - SEO strategy</li>
-            <li>marketing-conversion-optimization - Conversion strategy</li>
-            <li>engineering-frontend-development - Prototype development</li>
+            <li><span>workflow-project-manager - Project coordination</span></li>
+            <li><span>workflow-architect-ux - Information architecture & UX</span></li>
+            <li><span>design-brand-guardian - Brand guidelines & consistency</span></li>
+            <li><span>design-ui-systems - UI design & components</span></li>
+            <li><span>marketing-content-strategy - Content & messaging</span></li>
+            <li><span>marketing-seo-technical - SEO strategy</span></li>
+            <li><span>marketing-conversion-optimization - Conversion strategy</span></li>
+            <li><span>engineering-frontend-development - Prototype development</span></li>
           </ul>
         </div>
       </div>
